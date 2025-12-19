@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-color: #fdfaf4;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+} 
+
+.header a:hover{
+    color: #f1eada;
+    background-color: #442d1c;
+}
+
+.header a.active{
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.header{
+    display: flex;
+    background-color: #f1eada;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.header a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #442d1c;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.header .icon{
+    display: none;
+}
+
+p, li{
+    color: #442d1c;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.about{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.pabout{
+    font-size: large;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin-top: 2.5rem;
+    background-color: #f1eada;
+    max-width: 67ch;
+    line-height: 1.2;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+form{
+    background-color: #f1eada;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding-left: 6rem;
+    padding-right: 14rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: large;
+    color: #442d1c;
+    line-height: 1.4;
+}
+
+.info{
+    background-color: #dcd2bf;
+    margin-top: 2.5rem;
+    padding-left: 1rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    line-height: 1.2;
+}
+
+#q{
+    margin-left: -1.5rem;
+}
+
+ul, .ul{
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+    font-size: large;
+}
+
+.line{
+    padding-left: 1rem;
+}
+
+footer{
+    background-color: #442d1c;
+    color: #f1eada;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+footer p{
+    color: #f1eada;
+    font-size: large;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+}

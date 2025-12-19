@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>SGlow studio</title>
+        <link rel="stylesheet" href="./styles/styleAbout.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="header" id="topNav">
+            <img src="./images/logo-modified.png" class="logo">
+            <a href="./index.html" >HOME</a>
+            <a href="./about.html" class="active">ABOUT</a>
+            <a href="./services.html">SERVICES</a>
+            <a href="./gallery.html">GALLERY</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <!--To open and close the topnav on small screens-->
+                ☰
+            </a>
+        </div>
+
+        <div class="container"> 
+            <div class="about">
+                <p class="pabout">
+                    SGlow is a cosmetics studio based in Stuttgart providing services such as microneedling, BB glow and lash lift.
+                    <br><br>
+                    SGlow was established in the September of 2024 and since then our main focus has been offering our clients 
+                    high-quality certified services. 
+                    <br><br>
+                    We want our clients to be able to achieve clear and glossy skin while enjoying and relaxing during the process.
+                    <br><br>
+                    Clients' satisfaction and feedback is very important for us which is why you can fill out the form below about 
+                    your experience or if you have any questions regarding our services.
+                </p>
+
+                <form>
+                    <label for="fname">Name and surname:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="review">Review or questions:</label><br>
+                    <input type="text" id="review" name="review"><br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div class="info">
+                <p class="ul" id="q"> 
+                    IN WHICH CASES CAN TREATMENT NOT BE PERFORMED?
+                </p>
+                <ul>
+                    <li>
+                        with HIV, AIDS, hepatitis, and cancer
+                    </li>
+                    <li>
+                        active infections (e.g., herpes)
+                    </li>
+                    <li>
+                        with open wounds and sunburn
+                    </li>
+                    <li>
+                        while taking blood-thinning medication
+                    </li>
+                    <li>
+                        during pregnancy or breastfeeding (must be discussed with your gynecologist)
+                    </li>
+                </ul>
+                <p class="line">_____________________________________________________________________________________</p>
+                <p class="ul" id="q">
+                    WHAT DO I NEED TO CONSIDER BEFORE THE TREATMENT?
+                </p>
+                <ul>
+                    <li>
+                        No Botox or hyaluronic acid treatments for 1 month prior
+                    </li>
+                    <li>
+                        No tanning beds or laser treatments for 48 hours prior
+                    </li>
+                    <li>
+                        No energy drinks, alcohol, or aspirin for 24 hours prior
+                    </li>
+                    <li>
+                        Please arrive for your appointment without makeup
+                    </li>
+                </ul>
+                <p class="line">_____________________________________________________________________________________</p>
+                <p class="ul" id="q">
+                    WHAT DO I NEED TO CONSIDER AFTER THE TREATMENT?
+                </p>
+                <ul>
+                    <li>
+                        For the first 24 hours: do not touch, wash, or sweat your face. Use a fresh head covering.
+                    </li>
+                    <li>
+                        For the first 48 hours: use the provided cream; do not wear makeup
+                    </li>
+                    <li>
+                        Also: use sunscreen daily, avoid tanning beds and harsh skincare products for one week
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <script src="myScript.js"></script>
+    </body>
+    <footer>
+            <p>©2025 SGlow, Stuttgart all rights reserved.</p>
+    </footer>
+</html>
