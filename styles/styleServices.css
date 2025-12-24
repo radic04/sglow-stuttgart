@@ -9,22 +9,24 @@ body{
 } 
 
 .header a:hover{
-    color: #f1eada;
-    background-color: #442d1c;
+    color: #442d1c;
+    opacity: 0.8;
 }
 
 .header a.active{
-    text-decoration: underline;
+    font-weight: 600;
     text-decoration-thickness: 1.5px;
 }
 
 .header{
+    background-color: #b6a89c;
     display: flex;
-    background-color: #f1eada;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     height: 4rem;
-    overflow: hidden;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1%;
     width: 100%;
 }
 
@@ -33,12 +35,16 @@ body{
     display: block;
     text-align: center;
     padding: 14px 16px;
-    color: #442d1c;
+    color: #f1eada;
     text-decoration: none;
     font-size: 1.5rem;
     position: relative;
     z-index: 2;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
 }
+
 
 .header .icon{
     display: none;
@@ -108,17 +114,73 @@ table {
     background-color: #f1eada;
 }
 
+.fa-brands{
+    color: #f1eada;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+
+.fa-brands:hover{
+    opacity: 0.7;
+}
+
 footer{
     background-color: #442d1c;
     color: #f1eada;
-    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
     width: 100%;
-    margin-bottom: 0;
+    padding-bottom: 1%;
+    margin-top: 4%;
+}
+
+.fnav a{
+    text-align: center;
+    padding: 14px 16px;
+    color: #f1eada;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+}
+
+.fnav .active{
+    font-weight: 600;
+}
+
+.fnav a:hover{
+    opacity: 0.7;
+}
+
+.fnav{
+    margin-top: 4%;
+}
+
+.logof{
+    height: 50px;
+    width: 50px;
+    padding-top: 1%;
+}
+
+.fa-instagram{
+    margin-left: -4%;
+    margin-top: 0.5%;
+    font-size: 40px !important;
+}
+
+.fa-tiktok{
+    margin-left: 1%;
+    margin-top: 0.5%;
+    font-size: 35px !important;
 }
 
 footer p{
     font-size: large;
     text-align: center;
-    margin-top: 2rem;
-    padding-top: 1.5rem;
 }

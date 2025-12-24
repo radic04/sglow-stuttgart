@@ -51,122 +51,156 @@ body{
     display: none;
 }
 
-
-p, li{
-    color: #442d1c;
+h2{
     font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
+    color: #564537;
+    font-size: 36px;
 }
-
-.about{
+.space{
+    margin-top: 2%;
     display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto auto;
-}
-
-.about{
-    display: flex;
-    justify-content: flex-end;
-    font-size: large;
-    max-height: fit-content;
-    padding-left: 2.5rem;
-    padding-right: 1.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    margin-left: auto;
-    margin-right: 4rem;
-    max-width: 80ch;
-    line-height: 1.2;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-form{
-    background-color: #f1eada;
-    display: grid;
-    grid-template-columns: auto auto;
     gap: 10px;
-    max-width: fit-content;
-    max-height: 8.5rem;
-    margin-left: 1rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-top: 1rem;
-    padding-left: 2.5rem;
-    padding-right: 6rem;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    font-size: large;
-    color: #442d1c;
-    line-height: 1.4;
-    font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.submit{
-    max-height: 25px;
-    max-width: 80px;
-    color: #442d1c;
-    background-color: #fdfaf4;
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
+.space h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
-.name{
-    max-height: fit-content;
-
-}
-
-.review{
-    max-height: fit-content;
-    padding-left: 3rem;
-}
-
-.info{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 1.5rem;
-    padding-left: 1rem;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    line-height: 1.2;
-}
-
-.q1, .q2, .q3{
-    background-color: #dcd2bf;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    max-height: fit-content;
-    padding-bottom: 0.5rem;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.q2{
-    margin-top: 0.4rem;
-    padding-bottom: 1rem;
-}
-
-.q3{
+.s1{
+    height: 400px;
+    grid-row: span 2;
     
 }
 
-
-ul, .ul{
-    padding-left: 3rem;
-    padding-top: 0.5rem;
-    font-size: large;
+.s2{
+    height: 400px;
+    grid-row: span 2;
+    
 }
 
-.line{
-    padding-left: 1rem;
+.c{
+    height: 350px;
 }
 
+.products{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5%;
+    gap: 10px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.products1{
+    height: 300px;
+    width: 520px;
+    grid-column: span 2;
+}
+
+.needles1{
+    height: 300px;
+    width: 170px;
+    margin-left: 45%;
+}
+
+.serums{
+    height: 300px;
+    width: 170px;
+    margin-left: 46%;
+}
+
+.needles2{
+    height: 300px;
+    width: 170px;
+   margin-left: 47%;
+}
+
+.pen{
+    height: 300px;
+    grid-row: span 2;
+}
+
+.prep{
+    height: 300px;
+    margin-left: -58%;
+    grid-row: span 2;
+}
+
+.products h2{
+    margin-left: -45%;
+    margin-top: 70%;
+    
+}
+.products2{
+    height: 300px;
+    width: 500px;
+    grid-column: span 2;
+    margin-left: -20%;
+}
+
+.customers{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 5%;
+    gap: 15px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.glow{
+    height: 350px;
+    grid-row: span 2;
+}
+
+.facial{
+    height: 300px;
+    width: 409px;
+    grid-column: span 2;
+}
+
+.face{
+    height: 300px;
+    margin-left: 5%;
+}
+
+.baa{
+    height: 300px;
+    width: 220px;
+    object-fit: cover;
+    grid-row: span 2;
+    margin-left: -104%;
+}
+
+.treatment{
+    height: 300px;
+}
+
+.mn{
+    height: 300px;
+    margin-left: 1.5%;
+}
+
+.skincare{
+    height: 300px;
+    margin-left: 1.5%;
+}
+
+.customers h2{
+    margin-top: -110%;
+    margin-left: 10%;
+}
 
 .fa-brands{
     color: #f1eada;
