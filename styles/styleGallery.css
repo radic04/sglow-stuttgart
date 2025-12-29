@@ -21,11 +21,9 @@ body{
 }
 
 .header{
-    background-color: #b6a89c;
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 4rem;
     padding-left: 10rem;
     padding-top: 1rem;
     padding-bottom: 1%;
@@ -40,8 +38,6 @@ body{
     color: #fffcf6;
     text-decoration: none;
     font-size: 1.5rem;
-    position: relative;
-    z-index: 2;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight:400;
@@ -49,6 +45,14 @@ body{
 
 .header .icon{
     display: none;
+}
+
+.topPart{
+    background-image: url("../images/top.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:180px;
+    max-width: 100vw;
 }
 
 h2{
