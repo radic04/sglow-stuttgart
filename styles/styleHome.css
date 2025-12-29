@@ -11,8 +11,7 @@ body{
 } 
 
 .header a:hover{
-    color: #442d1c;
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 .header a.active{
@@ -35,7 +34,7 @@ body{
     display: block;
     text-align: center;
     padding: 14px 16px;
-    color: #fffcf6;
+    color: #fdfaf4;
     text-decoration: none;
     font-size: 1.5rem;
     position: relative;
@@ -56,7 +55,7 @@ body{
 }
 
 .topPart{
-    background-image: url("../images/topIm.png");
+    background-image: url("../images/top1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:730px;
