@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     margin: 0;
     background-color: #fdfaf4;
@@ -19,11 +20,9 @@ body{
 }
 
 .header{
-    background-color: #b6a89c;
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 4rem;
     padding-left: 10rem;
     padding-top: 1rem;
     padding-bottom: 1%;
@@ -35,59 +34,142 @@ body{
     display: block;
     text-align: center;
     padding: 14px 16px;
-    color: #f1eada;
+    color: #fffcf6;
     text-decoration: none;
     font-size: 1.5rem;
-    position: relative;
-    z-index: 2;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight:400;
 }
 
-
 .header .icon{
     display: none;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    color: #442d1c;
+.topPart{
+    background-image: url("../images/top.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:180px;
+    max-width: 100vw;
+}
+
+p, h2, li, th{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
 }
 
 .microneedling{
-    grid-area: 1 / 1 / 1 / 1;
-    max-width: 30ch;
-    background-color: #f1eada;
-    margin-top: 2rem;
-    margin-left: 10rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    display: flex;
+    margin-left: 5%;
+    color: #593c28;
+}
 
+.microneedling img{
+    height: 130px;
+}
+
+.microneedling h2{
+    margin-left: 2%;
+    align-self: center;
+    font-size:30px;
+}
+
+.microneedling-text{
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+.microneedling-text p, .improv-m li{
+    color: #5d3e29;
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 55ch;
+}
+
+.desc-m{
+    margin-left: 11%;
+}
+
+.improv-m li, .improv-m p{
+    margin-left: 10%;
 }
 
 .bb-glow{
-    grid-area: 1 / 2 / 1 / 2;
-    max-width: 30ch;
-    background-color: #f1eada;
-    margin-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
+    display: flex;
+    margin-left: 5%;
+    color: #593c28;
 }
 
-.brow-lift{
-    grid-area: 1 / 3 / 1 / 3;
-    max-width: 30ch;
-    background-color: #f1eada;
-    margin-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
+.bb-glow img{
+    height: 130px;
 }
 
+.bb-glow h2{
+    margin-left: 2%;
+    align-self: center;
+    font-size:30px;
+}
+
+.bb-glow-text{
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+.bb-glow-text p, .improv-bb li{
+    color: #5d3e29;
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 55ch;
+}
+
+.desc-bb{
+    margin-left: 11%;
+}
+
+.improv-bb li, .improv-bb p{
+    margin-left: 10%;
+}
+
+.brow{
+    display: flex;
+    margin-left: 5%;
+    color: #593c28;
+}
+
+.brow img{
+    height: 130px;
+}
+
+.brow h2{
+    margin-left: 2%;
+    align-self: center;
+    font-size:30px;
+}
+
+.bl-text{
+    display: flex;
+}
+
+.bl-text p, .improv-bl li{
+    color: #5d3e29;
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 55ch;
+}
+
+.desc-bl{
+    margin-left: 16%;
+}
+
+.improv-bl{
+    margin-left: 4%;
+}
 .prices{
     grid-column: span 3;
     margin-top: 4rem;
