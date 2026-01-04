@@ -15,9 +15,6 @@
                     <a href="./about.html" class="active">ABOUT</a>
                     <a href="./services.html">SERVICES</a>
                     <a href="./gallery.html">GALLERY</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <!--To open and close the topnav on small screens-->
-                        ☰
-                    </a>
             </div>        
         </div>
         
@@ -103,23 +100,21 @@
                     </div>
                 </div>
             </div>
-            <form>
-                    <div class="name">
-                        <label for="fname">Name and surname:</label><br>
-                        <input type="text" id="fname" name="fname"><br>
+        
+            <form action="javascript:void(0);">
+                    <div>
+                        <input type="text" id="fname" name="fname" placeholder="Name and surname *"><br>
+                        <input type="text" id="email" name="email" placeholder="E-mail *"><br>
                     </div>
                     
-                    <div class="review">
-                        <label for="review">Review or questions:</label><br>
-                        <input type="text" id="review" name="review"><br>
-                    </div>
-                    
+                    <textarea name="" placeholder="Review or questions *" id="review" cols="30" rows="10"></textarea><br>
                     <br>
-                    <input type="submit" value="Submit" class="submit">
+                    <button type="submit" value="Submit" class="submit" onclick="submitForm()">Submit</button>
             </form>
+      
         </div>
         
-        <script src="myScript.js"></script>
+        <script src="./scripts/myScript.js"></script>
     </body>
     <footer>
             <img src="./images/logo-modified.png" class="logof"><br>
@@ -134,6 +129,7 @@
                 <a href="./services.html">SERVICES</a>
                 <a href="./gallery.html">GALLERY</a>
             </div>
-            <p>©2025 SGlow, Stuttgart all rights reserved.</p>
+            <p>©2025 SGlow all rights reserved.</p>
     </footer>
+    
 </html>

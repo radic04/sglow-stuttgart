@@ -55,7 +55,7 @@ body{
 }
 
 .topPart{
-    background-image: url("../images/top1.png");
+    background-image: url("../images/top2.png");
     background-size: cover;
     background-repeat: no-repeat;
     height:730px;
@@ -86,7 +86,7 @@ body{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     width: 65%;
-    margin-top: -6%;
+    margin-top: -2%;
     margin-left: 23%;
     margin-right: auto;
     margin-bottom: 5%;
