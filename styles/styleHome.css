@@ -83,20 +83,21 @@ body{
     font-family: "Work Sans", sans-serif;
     color: #624e3f;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-    width: 65%;
+    width: 50%;
     margin-top: -2%;
-    margin-left: 23%;
+    margin-left: 27%;
     margin-right: auto;
     margin-bottom: 5%;
     gap: 30px;
+    column-gap: 60px;
 }
 
 .services h2{
     grid-column: span 3;
     font-size: 45px;
-    margin-left: 27%;
+    margin-left: 25%;
 }
 
 .services img{
@@ -112,15 +113,15 @@ body{
 }
 
 .services .m{
-    margin-left: -8%;
+    margin-left: -12%;
 }
 
 .services .bb{
-    margin-left: 7%;
+    margin-left: 9%;
 }
 
 .services .bl{
-    margin-left: -10%;
+    margin-left: -20%;
 }
 
 .about{
