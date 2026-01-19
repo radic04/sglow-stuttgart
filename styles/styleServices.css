@@ -266,3 +266,53 @@ footer p{
     font-size: large;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+  }
+
+  .bb-glow, .brow{
+    margin-top: 10%;
+  }
+
+  .microneedling img, .bb-glow img, .brow img{
+    height: 100px;
+  }
+
+  .microneedling-text, .bb-glow-text, .bl-text{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+    max-width: 50ch;
+  }
+
+  th, tr{
+    padding: 15px;
+}
+
+  .logof{
+    height: 30px;
+    width: 30px;
+    padding-top: 1%;
+  }
+
+  .fa-instagram{
+    margin-top: 1%;
+    margin-left: -7%;
+    font-size: 20px !important;
+  }
+
+    .fa-tiktok{
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 20px !important;
+    }
+
+    .socials{
+        padding: 2%;
+        padding-bottom: 5%;
+    }
+}

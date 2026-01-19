@@ -180,8 +180,6 @@ form{
     margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
-    padding-bottom: 0;
     padding-top: 1.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -303,4 +301,69 @@ footer p{
 footer p{
     font-size: large;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+  }
+
+  .about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about img{
+    height: 300px;
+    margin-top: 0;
+  }
+
+  .pabout{
+    max-width: 35ch;
+  }
+
+  .q1-container, .q3-container{
+    flex-wrap: wrap;
+  }
+
+  .q1-container p,.q1-container p:first-child, .q2-container p, .q3-container p{
+    font-size: medium;
+    padding: 7%;
+  }
+
+  form{
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .submit{
+    margin-left: 40%;
+    margin-bottom: 3%;
+  }
+
+  .logof{
+    height: 30px;
+    width: 30px;
+    padding-top: 1%;
+  }
+
+  .fa-instagram{
+    margin-top: 1%;
+    margin-left: -7%;
+    font-size: 20px !important;
+  }
+
+    .fa-tiktok{
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 20px !important;
+    }
+
+    .socials{
+        padding: 2%;
+        padding-bottom: 5%;
+    }
 }

@@ -48,12 +48,6 @@ body{
     display: none;
 }
 
-
-.intro{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .topPart{
     background-image: url("../images/top2.png");
     background-size: cover;
@@ -65,17 +59,16 @@ body{
 
 .intro-text{
     color: #f6f2e8;
-    margin-top: 2rem;
+    margin-top: 6%;
+    margin-left: 15%;
 }
 
 .intro-text h1{
     font-size: 65px;
-    margin-left: 30%;
 }
 
 .intro-text p{
     font-size: 28px;
-    margin-left: 30%;
     font-family: "Work Sans", sans-serif;
 }
 
@@ -106,7 +99,7 @@ body{
 
 .services h4{
     font-size: 24px;
-    margin-top: -5%;
+    margin-top: 8%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -283,33 +276,87 @@ footer p{
 }
 
 @media screen and (max-width: 600px) {
-  .header a:not(:first-child) {display: none;}
-  .header a.icon {
-    float: right;
-    display: block;
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+    padding-top: 7%;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .header.responsive {
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #442d1c;
-    z-index: 10;
+  .intro-text{
+    margin-top: 25%;
+  }
+
+  .intro-text h1{
+    font-size: 50px;
+    }   
+
+    .intro-text p{
+        font-size: 25px;
     }
-  .header.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .header.responsive a {
-    display: block;
-    width: 100%;
-    text-align: left;
-    color: #ece1da;
-    background-color: transparent;
-    text-decoration: none;
-    font-size: 1.5rem;
+
+  .services{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20%;
   }
 
+  .services img{
+    height: 120px;
+  }
+
+  .services h2{
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .services div{
+    margin-left: 15%;
+  }
+
+  .services h4{
+    font-size: 20px;
+  }
+
+  .about img{
+    height: 250px;
+  }
+
+  .about-text{
+    margin: 0;
+    font-size: 20px;
+  } 
+
+  .feedback{
+    margin-left: 5%;
+    max-width: 37ch;
+    height: fit-content;
+  }
+
+  .container img{
+    height: 0px;
+  }
+
+  .logof{
+    height: 30px;
+    width: 30px;
+    padding-top: 1%;
+  }
+
+  .fa-instagram{
+    margin-top: 1%;
+    margin-left: -7%;
+    font-size: 20px !important;
+  }
+
+    .fa-tiktok{
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 20px !important;
+    }
+
+    .socials{
+        padding: 2%;
+        padding-bottom: 5%;
+    }
 }
