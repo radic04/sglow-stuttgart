@@ -26,7 +26,6 @@ body{
     padding-left: 10rem;
     padding-top: 1rem;
     padding-bottom: 1%;
-    width: 100%;
 }
 
 .header a{
@@ -277,6 +276,58 @@ footer p{
     display: flex;
     flex-wrap: wrap;
     padding-left: 5rem;
+  }
+
+
+  .space{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .space img{
+    margin: 0;
+    margin-left: 5%;
+    height: 350px;
+  }
+
+  .space h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .products img{
+    margin: 0;
+    padding: 0;
+    height: 250px;
+  }
+
+  .products h2{
+    order: -1;
+    margin-left: 30%;
+  }
+
+  .customers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .customers img{
+    margin: 0;
+    padding: 0;
+    height: 350px;
+  }
+
+  .customers h2{
+    order: -1;
+    margin: 0;
   }
 
 
